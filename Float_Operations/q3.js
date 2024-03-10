@@ -4,10 +4,13 @@
 
 let a = 7, b = 3, c = 11, d = 3, e = 7, f = 6;
 
-// let distance = Math.sqrt((c - a) * (c - a) + (d - b) * (d - b));
+// let distance = Math.sqrt((c - a) * hb b(c - a) + (d - b) * (d - b));
 
 let distance = Math.sqrt(Math.pow((c-a / 2) + (d-b / 2)))
 console.log(distance)
+
+let s = (a + b + c) / 2;
+console.log(s)
 
 let new_distance = Math.sqrt((x2 - x1) * (x2 - 1) + (y2 - y1) * (y2 - y1));
 console.log(new_distance)
